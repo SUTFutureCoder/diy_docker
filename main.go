@@ -1,6 +1,5 @@
 // +build linux
-
-package diy_docker
+package main
 
 import (
 	"log"
