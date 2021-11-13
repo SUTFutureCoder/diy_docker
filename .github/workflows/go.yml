@@ -21,10 +21,7 @@ jobs:
     - name: Build
       run: go build -v ./...
 
-    - name: Test
-      run: go test -v ./...
-      
-    # Deploy 
+    # Deploy
     - name: Deploy to Server
       uses: AEnterprise/rsync-deploy@v1.0
       env:
